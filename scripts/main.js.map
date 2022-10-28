@@ -1,0 +1,1 @@
+{"version":3,"sources":["scripts.js"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA","file":"main.js","sourcesContent":["// =========== create overlay function =========== //\r\nfunction createOverlay() {\r\n  const overlay = document.createElement(\"div\");\r\n  overlay.classList.add(\"overlay\");\r\n  document.body.appendChild(overlay);\r\n}\r\n"]}

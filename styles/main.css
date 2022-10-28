@@ -1,0 +1,114 @@
+/* ========= Start Global Rules =========*/
+html {
+  font-size: 100%;
+  scroll-behavior: smooth;
+  scroll-padding-block-start: var(--spacer-lg);
+}
+
+body {
+  overflow-inline: hidden;
+  font-family: var(--body-font);
+  background-color: var(--bg-clr);
+  accent-color: var(--primary-clr);
+}
+
+body::-webkit-scrollbar {
+  inline-size: 5px;
+  block-size: 5px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: lightblue;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: var(--border-radius-lg);
+}
+
+body::-webkit-scrollbar-corner {
+  background-color: lightblue;
+  border-radius: var(--border-radius-lg);
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--title-font);
+}
+
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+input {
+  caret-color: var(--primary-clr);
+}
+
+/* ========= End Global Rules ===========*/
+/* ========== Start Variables ===========*/
+:root {
+  /* === Font's Families  === */
+  --body-font: "Poppins", sans-serif;
+  --title-font: "Quicksand", sans-serif;
+  /* === colors === */
+  --primary-clr: #7380ec;
+  --primary-clr-alt: #6674f6;
+  --secondary-clr: #ec73c4;
+  --success-clr: #41f1b6;
+  --info-clr: #7d8da1;
+  --warning-clr: #ffbb55;
+  --danger-clr: #4adc0c;
+  --accent-clr: #ff7750;
+  --white-clr: #fff;
+  --black-clr: #000;
+  --light-clr: #edeffd;
+  --dark-clr: #363949;
+  --bg-clr: #f1f5f9;
+  --fg-clr: #181a1e;
+  /* === Box Shadows === */
+  --box-shadow: 0px 0px 20px var(--dark-clr);
+  /* === Line Height === */
+  --line-height: 1.5;
+  --line-height-lg: 2;
+  /* === Transition === */
+  --transition: 0.5s;
+  /* === Border Radius === */
+  --border-radius: 5px;
+  --border-radius-lg: 10px;
+  /* === Spacers === */
+  --spacer-sm: 0.625rem;
+  --spacer-md: 1.25rem;
+  --spacer-lg: 3.125rem;
+  --spacer-xlg: 6.25rem;
+}
+
+/* =========== End Variables ============*/
+/* ============ Start themes ============*/
+.darkmode {
+  --box-shadow: 0px 0px 20px var(--light-clr);
+}
+
+/* =========== End themes ===============*/
+/* ======= Start common Styles ========= */
+/* ========= End common Styles ========= */
+/* =========== Start Header ===========  */
+header {
+  color: #f85300;
+}
+
+/* =========== End Header =============  */
+/* =========== Start aside =========== */
+aside {
+  font-size: 1.125rem;
+  color: #f85300;
+}
+
+/* =========== End aside ============= */
+/*# sourceMappingURL=main.css.map */
