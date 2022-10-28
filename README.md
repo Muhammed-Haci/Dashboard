@@ -1,22 +1,21 @@
-# --- Project's sections' Table --- 
+# Dashboard
 
-### Home page:
-1 >> Header 
-2 >> Landing 
-3 >> Services  
-4 >> video  
-5 >> About  
-6 >> office  
-7 >> portfolio 
-8 >> Footer 
+version: 1.0.0
 
+URL Demo address: [Click Here](https://muhammed-haci.github.io/dashboard/)
 
-### --- Problems in the project ---
+author: Muhammed Haci
 
-# A. On laptop devices:
->> 
+Developed by: Muhammed Haci (me)
 
+website has been created using HTML, CSS, JS
 
-# B. On mobile devices:
->>
+the date of build: 01.11.2022
 
+the website pages:
+
+- Home page
+- XXXX Page
+- XXXX Page
+- XXXX Page
+- XXXX Page
